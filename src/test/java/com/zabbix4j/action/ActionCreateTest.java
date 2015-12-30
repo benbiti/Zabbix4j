@@ -3,6 +3,7 @@ package com.zabbix4j.action;
 import com.zabbix4j.ZabbixApiException;
 import com.zabbix4j.ZabbixApiTestBase;
 import org.junit.Test;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -11,6 +12,7 @@ import static org.junit.Assert.assertNotNull;
 /**
  * Created by Suguru Yajima on 2014/05/20.
  */
+@Data
 public class ActionCreateTest extends ZabbixApiTestBase {
     public ActionCreateTest() {
         super();
